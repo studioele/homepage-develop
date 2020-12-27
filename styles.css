@@ -1,13 +1,15 @@
 html {
   scroll-behavior: smooth;
+  height: 100%;
  }
 
 body {
+  height: 100%;
   max-width: 1980px;
   margin: 0 auto;
-  margin-top: 8.5vh;
   background-color: white;
 }
+
 
 /* FONTS */
 p {
@@ -41,6 +43,12 @@ h4 {
 /* NAVBAR_TOP */
 .navigation_top{
   background-color: white;
+  max-width: 1980px;
+  margin: 0 auto;
+}
+
+.navigation_top_index{
+  background-color: none;
   max-width: 1980px;
   margin: 0 auto;
 }
@@ -94,19 +102,66 @@ h4 {
 }
 /* END FOOTER */
 
+/* BACKGROUND ON INDEX */
+.bg {
+  /* The image used */
+  background-image: url("/projects/Landing/201207_Landing.gif");
+  margin: 0;
+  /* margin-left: 1rem; */
+  /* margin-right: 1rem; */
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* END BACKGROUND ON INDEX */
+
 
 /* ABOUT */
 .about {
-  /* margin-top: 5rem; */
-  margin-bottom: 16rem;
+  margin-top: 5rem;
+  /* margin-top: 10vh; */
+  /* margin-bottom: 3rem; */
   text-align: justify;
 }
 
-.cv_text  {
+.about_info{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.about_info_name  {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  font-size: 11pt;
+  font-size: 12pt;
+  margin-right: 0rem;
+  padding: 0;
+  text-transform: uppercase;
 }
+
+.about_info_cv  {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 10pt;
+}
+
+.about_info_cv_light  {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 8pt;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom  {
+  margin-bottom: 15vh;
+}
+
 /* END ABOUT */
 
 .start  {
