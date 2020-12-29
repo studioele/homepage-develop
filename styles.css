@@ -134,13 +134,13 @@ h4 {
   text-align: justify;
   text-justify: inter-word;
   line-height: 105%;
-  word-spacing: -1px;
+  word-spacing: -1.5px;
 }
 
 .about_info_name  {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  font-size: 12pt;
+  font-size: 11.5pt;
   margin-right: 2.5rem;
   padding: 0;
   text-transform: uppercase;
@@ -160,8 +160,12 @@ h4 {
   padding: 0;
 }
 
+.top  {
+  height: 50px;
+}
+
 .bottom  {
-  height: 100px;
+  height: 75px;
 }
 
 /* END ABOUT */
